@@ -23,4 +23,4 @@ c:\pin\pin.exe -t C:\pin\NetLogger.dll -o bonk.log -- nc.exe -l -v -p 999
 
 Log only ascii strings, careful if they are not null terminated we probably will crash.
 
-c:\pin\pin.exe -t C:\pin\NetLogger.dll -a - donks.log -- nc.exe -l -v -p 999
+c:\pin\pin.exe -t C:\pin\NetLogger.dll -a -o donks.log -- nc.exe -l -v -p 999
